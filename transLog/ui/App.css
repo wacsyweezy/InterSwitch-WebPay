@@ -1,0 +1,133 @@
+.form-control, .btn, .input-group-addon, .alert, .navbar, .panel, .panel-heading, .panel-footer, .noradius, .pagination, .well {
+	border-radius:0px;
+}
+/*** WIDGET ****/
+.widget {
+  position: relative;
+  margin-bottom: 5px;
+}
+.widget-header,
+.widget-content {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.portlets {
+  min-height: 50px;
+}
+.portlets .widget-header {
+  cursor: move;
+}
+.widget-footer {
+  -webkit-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+  overflow: hidden;
+}
+.widget-header.transparent {
+  background: transparent;
+  border: none;
+}
+.widget-header.centered {
+  text-align: center;
+}
+.widget-header .left-btn {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+.widget-content {
+  -webkit-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+}
+.widget-content.padding {
+  padding: 15px;
+}
+.widget-content.padding-sm {
+  padding: 10px;
+}
+.widget-content.padding-xs {
+  padding: 1%;
+}
+.widget .widget-icon {
+  font-size: 50px;
+  position: absolute;
+  right: 4%;
+  top: 10px;
+}
+.widget .text-box h2 {
+  padding: 0;
+  margin: 0px 0;
+  font-weight: 300;
+  font-size: 32px;
+  display: block;
+  color:#fff;
+}
+.widget .text-box .maindata {
+  font-size: 11px;
+}
+.widget .text-box .maindata b {
+  font-size: 12px;
+}
+.widget .progress {
+  margin: 0px;
+}
+.widget .widget-footer {
+  padding: 4px 15px;
+  font-size: 12px;
+}
+.widget .widget-footer .rel-change {
+  font-size: 14px;
+  margin-right: 7px;
+}
+
+.widget-green {
+	background:#68C39F;
+	color:#fff;
+}
+.widget-green .widget-footer {
+	background:#5DAF8F;
+}
+
+.widget-grey {
+	background:#ABB7B7;
+	color:#fff;
+}
+.widget-grey .widget-footer {
+	background:#9AA4A4;
+}
+
+.widget-gold {
+	background:#EDCE8C;
+	color:#fff;
+}
+.widget-gold .widget-footer {
+	background:#D5B97E;
+}
+
+.widget-darkblue {
+	background:#4A525F;
+	color:#fff;
+}
+.widget-darkblue .widget-footer {
+	background:#424A55;
+}
+
+b.label {
+	color:#222;
+}
+
+div.form-group label {
+    font-size:12px;
+    font-weight:normal;
+}
+
+div.well p.lead {
+    margin-top:0px;
+    font-weight:normal;
+    font-size:15px;
+}
+
+div.well p.lead small {
+    font-size:12px;
+    font-weight:bold;
+}
